@@ -5,7 +5,7 @@ import Message from './components/Message';
 import UserList from './components/UserList'
 import AvatarSelector from './components/AvatarSelector'
 
-const socket = io('http://localhost:4001'); // Connect to the Socket.IO server
+const socket = io('https://main.d1al7xz791egw5.amplifyapp.com/'); // Connect to the Socket.IO server
 
 function App() {
   const [messages, setMessages] = useState([]);
